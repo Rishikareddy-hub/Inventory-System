@@ -1,0 +1,137 @@
+/* General layout */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f4f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center container */
+.container {
+  width: 400px;
+  margin: 90px auto;
+  background: white;
+  padding: 35px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Titles */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #4A7DFF;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4A7DFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2e63e6;
+}
+
+/* Dashboard container */
+.dashboard {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard heading */
+.dashboard h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+/* Form layout for adding products */
+form {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+form input {
+  flex: 1;
+}
+
+/* Action buttons for update & delete */
+.action-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.update-btn {
+  background: #28a745;
+  color: white;
+}
+
+.update-btn:hover {
+  background: #1f8c39;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #bb2232;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+th {
+  background: #4A7DFF;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+tr:hover td {
+  background: #f1f4ff;
+}
